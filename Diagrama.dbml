@@ -1,0 +1,40 @@
+table pacientes {
+  registro_de_cedula integer [primary key]
+  nombre_completo varchar
+  fecha_de_nacimiento date
+  tipo_de_sangre varchar
+}
+
+table medico {
+  registro_de_nombre integer [primary key]
+  tarjeta_profesional varchar [unique]
+  especialidad_medica varchar
+}
+
+table citas_medicas {
+  id_cita integer [primary key]
+  paciente_id integer
+  medico_id integer
+  fecha_hora timestamp
+  motivo_consulta varchar
+}
+
+table historias_clinicas {
+  id_historia integer [primary key]
+  cita_id integer
+  diagnostico varchar
+  tratamiento varchar
+}
+
+table signos_vitales {
+  id_registro integer [primary key]
+  paciente_id integer
+  frecuencia_cardiaca integer
+  temperatura integer
+  fecha_hora timestamp
+}
+
+ref: citas_medicas.paciente_id > pacientes.registro_de_cedula
+ref: citas_medicas.medico_id > medico.registro_de_nombre
+ref: historias_clinicas.cita_id > citas_medicas.id_cita
+ref: signos_vitales.paciente_id > pacientes.registro_de_cedula
