@@ -98,4 +98,12 @@ Se debe registrar de forma automática:
 - Una cita media es un evento administrativo (motivo de consulta), mientras que una historia media es un registro medico que evoluciona (diagnostico y tratamiento).
 - Si se mezcla ambas tablas, abría una tabla con baja cohesión.
 
+
+## Principales participantes de este taller
+
+Andres Mauricio Barrera Ramirez 
+Alejandro Gomez Rodriguez
+Samuel Esteban Rodriguez Romero
+David Felipe Restrepo Moreno 
+
 ---
