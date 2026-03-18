@@ -101,9 +101,9 @@ Se debe registrar de forma automática:
 
 ## Principales participantes de este taller
 
-Andres Mauricio Barrera Ramirez 
-Alejandro Gomez Rodriguez
-Samuel Esteban Rodriguez Romero
-David Felipe Restrepo Moreno 
+- Andres Mauricio Barrera Ramirez 
+- Alejandro Gomez Rodriguez
+- Samuel Esteban Rodriguez Romero
+- David Felipe Restrepo Moreno 
 
 ---
